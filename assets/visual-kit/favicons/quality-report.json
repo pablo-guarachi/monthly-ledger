@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "date": "2026-10-23",
+  "png_files": 12,
+  "ico_frames": [
+    16,
+    32,
+    48,
+    64,
+    128,
+    256
+  ],
+  "checks": [
+    "Raster decoding",
+    "SVG XML",
+    "Manifest paths and dimensions",
+    "Opaque touch/install icons",
+    "Maskable central safe circle"
+  ]
+}

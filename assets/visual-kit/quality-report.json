@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-23",
+  "status": "PASS",
+  "asset_entries": 70,
+  "categories": {
+    "brand": 11,
+    "platform": 18,
+    "icon": 30,
+    "illustration": 10,
+    "preview": 1
+  },
+  "raster_files_checked": 80,
+  "svg_files_checked": 60,
+  "unique_generated_masters": 10,
+  "gallery_local_links_checked": 215,
+  "checks": [
+    "Raster decoding",
+    "SVG XML",
+    "Illustration PNG and WEBP alpha: corners <=2/255, zero alpha elsewhere in the transparent area",
+    "Opaque standard icon",
+    "White notification silhouettes at every density",
+    "Adaptive foreground and monochrome within central safe circle",
+    "Gallery links",
+    "Expo example file paths"
+  ],
+  "device_build_performed": false,
+  "visual_review": "Logo at 24/32/48/72/128 px, round/squircle masks, all pictograms, all illustrations on light and dark inspection sheets."
+}

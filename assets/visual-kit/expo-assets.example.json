@@ -1,0 +1,37 @@
+{
+  "_note": "Merge these sections into the existing expo configuration; this is not a complete app.json.",
+  "expo": {
+    "icon": "./assets/visual-kit/platform/icon.png",
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0F1D26",
+        "foregroundImage": "./assets/visual-kit/platform/android-icon-foreground.png",
+        "backgroundImage": "./assets/visual-kit/platform/android-icon-background.png",
+        "monochromeImage": "./assets/visual-kit/platform/android-icon-monochrome.png"
+      }
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/visual-kit/platform/splash-light.png",
+          "imageWidth": 160,
+          "resizeMode": "contain",
+          "backgroundColor": "#F6F1E6",
+          "dark": {
+            "image": "./assets/visual-kit/platform/splash-dark.png",
+            "backgroundColor": "#0F1D26"
+          }
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/visual-kit/platform/notification-96.png",
+          "color": "#1F8F74",
+          "defaultChannel": "reminders"
+        }
+      ]
+    ]
+  }
+}

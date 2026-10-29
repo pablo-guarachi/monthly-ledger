@@ -1,0 +1,1207 @@
+{
+  "project": "Monthly Ledger",
+  "created": "2026-10-23",
+  "tooling": {
+    "illustrations": "built-in image_gen",
+    "identity_icons": "native SVG / outlined Manrope",
+    "exports": "PyMuPDF + Pillow"
+  },
+  "assets": [
+    {
+      "id": "mark-ink",
+      "category": "brand",
+      "svg": "brand/mark-ink.svg",
+      "png": "brand/mark-ink.png",
+      "origin": "native SVG geometry / outlined Manrope",
+      "files": {
+        "svg": "brand/mark-ink.svg",
+        "png": "brand/mark-ink.png"
+      },
+      "bytes": {
+        "svg": 393,
+        "png": 3968
+      }
+    },
+    {
+      "id": "mark-green",
+      "category": "brand",
+      "svg": "brand/mark-green.svg",
+      "png": "brand/mark-green.png",
+      "origin": "native SVG geometry / outlined Manrope",
+      "files": {
+        "svg": "brand/mark-green.svg",
+        "png": "brand/mark-green.png"
+      },
+      "bytes": {
+        "svg": 393,
+        "png": 3905
+      }
+    },
+    {
+      "id": "mark-paper",
+      "category": "brand",
+      "svg": "brand/mark-paper.svg",
+      "png": "brand/mark-paper.png",
+      "origin": "native SVG geometry / outlined Manrope",
+      "files": {
+        "svg": "brand/mark-paper.svg",
+        "png": "brand/mark-paper.png"
+      },
+      "bytes": {
+        "svg": 393,
+        "png": 3981
+      }
+    },
+    {
+      "id": "mark-white",
+      "category": "brand",
+      "svg": "brand/mark-white.svg",
+      "png": "brand/mark-white.png",
+      "origin": "native SVG geometry / outlined Manrope",
+      "files": {
+        "svg": "brand/mark-white.svg",
+        "png": "brand/mark-white.png"
+      },
+      "bytes": {
+        "svg": 393,
+        "png": 3388
+      }
+    },
+    {
+      "id": "mark-black",
+      "category": "brand",
+      "svg": "brand/mark-black.svg",
+      "png": "brand/mark-black.png",
+      "origin": "native SVG geometry / outlined Manrope",
+      "files": {
+        "svg": "brand/mark-black.svg",
+        "png": "brand/mark-black.png"
+      },
+      "bytes": {
+        "svg": 393,
+        "png": 3274
+      }
+    },
+    {
+      "id": "logo-horizontal-light",
+      "category": "brand",
+      "svg": "brand/logo-horizontal-light.svg",
+      "png": "brand/logo-horizontal-light.png",
+      "origin": "native SVG geometry / outlined Manrope",
+      "files": {
+        "svg": "brand/logo-horizontal-light.svg",
+        "png": "brand/logo-horizontal-light.png"
+      },
+      "bytes": {
+        "svg": 4844,
+        "png": 13541
+      }
+    },
+    {
+      "id": "logo-stacked-light",
+      "category": "brand",
+      "svg": "brand/logo-stacked-light.svg",
+      "png": "brand/logo-stacked-light.png",
+      "origin": "native SVG geometry / outlined Manrope",
+      "files": {
+        "svg": "brand/logo-stacked-light.svg",
+        "png": "brand/logo-stacked-light.png"
+      },
+      "bytes": {
+        "svg": 4933,
+        "png": 12655
+      }
+    },
+    {
+      "id": "wordmark-light",
+      "category": "brand",
+      "svg": "brand/wordmark-light.svg",
+      "png": "brand/wordmark-light.png",
+      "origin": "native SVG geometry / outlined Manrope",
+      "files": {
+        "svg": "brand/wordmark-light.svg",
+        "png": "brand/wordmark-light.png"
+      },
+      "bytes": {
+        "svg": 4545,
+        "png": 10054
+      }
+    },
+    {
+      "id": "logo-horizontal-dark",
+      "category": "brand",
+      "svg": "brand/logo-horizontal-dark.svg",
+      "png": "brand/logo-horizontal-dark.png",
+      "origin": "native SVG geometry / outlined Manrope",
+      "files": {
+        "svg": "brand/logo-horizontal-dark.svg",
+        "png": "brand/logo-horizontal-dark.png"
+      },
+      "bytes": {
+        "svg": 4844,
+        "png": 13551
+      }
+    },
+    {
+      "id": "logo-stacked-dark",
+      "category": "brand",
+      "svg": "brand/logo-stacked-dark.svg",
+      "png": "brand/logo-stacked-dark.png",
+      "origin": "native SVG geometry / outlined Manrope",
+      "files": {
+        "svg": "brand/logo-stacked-dark.svg",
+        "png": "brand/logo-stacked-dark.png"
+      },
+      "bytes": {
+        "svg": 4933,
+        "png": 12643
+      }
+    },
+    {
+      "id": "wordmark-dark",
+      "category": "brand",
+      "svg": "brand/wordmark-dark.svg",
+      "png": "brand/wordmark-dark.png",
+      "origin": "native SVG geometry / outlined Manrope",
+      "files": {
+        "svg": "brand/wordmark-dark.svg",
+        "png": "brand/wordmark-dark.png"
+      },
+      "bytes": {
+        "svg": 4545,
+        "png": 10039
+      }
+    },
+    {
+      "id": "icon",
+      "category": "platform",
+      "png": "platform/icon.png",
+      "svg": "platform/sources/icon.svg",
+      "width": 1024,
+      "height": 1024,
+      "origin": "native SVG",
+      "files": {
+        "svg": "platform/sources/icon.svg",
+        "png": "platform/icon.png"
+      },
+      "bytes": {
+        "svg": 468,
+        "png": 19343
+      }
+    },
+    {
+      "id": "android-icon-foreground",
+      "category": "platform",
+      "png": "platform/android-icon-foreground.png",
+      "svg": "platform/sources/android-icon-foreground.svg",
+      "width": 1080,
+      "height": 1080,
+      "origin": "native SVG",
+      "files": {
+        "svg": "platform/sources/android-icon-foreground.svg",
+        "png": "platform/android-icon-foreground.png"
+      },
+      "bytes": {
+        "svg": 403,
+        "png": 13180
+      }
+    },
+    {
+      "id": "android-icon-background",
+      "category": "platform",
+      "png": "platform/android-icon-background.png",
+      "svg": "platform/sources/android-icon-background.svg",
+      "width": 1080,
+      "height": 1080,
+      "origin": "native SVG",
+      "files": {
+        "svg": "platform/sources/android-icon-background.svg",
+        "png": "platform/android-icon-background.png"
+      },
+      "bytes": {
+        "svg": 146,
+        "png": 7133
+      }
+    },
+    {
+      "id": "android-icon-monochrome",
+      "category": "platform",
+      "png": "platform/android-icon-monochrome.png",
+      "svg": "platform/sources/android-icon-monochrome.svg",
+      "width": 1080,
+      "height": 1080,
+      "origin": "native SVG",
+      "files": {
+        "svg": "platform/sources/android-icon-monochrome.svg",
+        "png": "platform/android-icon-monochrome.png"
+      },
+      "bytes": {
+        "svg": 403,
+        "png": 11994
+      }
+    },
+    {
+      "id": "splash-light",
+      "category": "platform",
+      "png": "platform/splash-light.png",
+      "svg": "platform/sources/splash-light.svg",
+      "width": 512,
+      "height": 512,
+      "origin": "native SVG",
+      "files": {
+        "svg": "platform/sources/splash-light.svg",
+        "png": "platform/splash-light.png"
+      },
+      "bytes": {
+        "svg": 401,
+        "png": 7640
+      }
+    },
+    {
+      "id": "splash-dark",
+      "category": "platform",
+      "png": "platform/splash-dark.png",
+      "svg": "platform/sources/splash-dark.svg",
+      "width": 512,
+      "height": 512,
+      "origin": "native SVG",
+      "files": {
+        "svg": "platform/sources/splash-dark.svg",
+        "png": "platform/splash-dark.png"
+      },
+      "bytes": {
+        "svg": 401,
+        "png": 7615
+      }
+    },
+    {
+      "id": "notification-24",
+      "category": "platform",
+      "png": "platform/notification-24.png",
+      "svg": "platform/sources/notification-24.svg",
+      "width": 24,
+      "height": 24,
+      "origin": "native SVG",
+      "files": {
+        "svg": "platform/sources/notification-24.svg",
+        "png": "platform/notification-24.png"
+      },
+      "bytes": {
+        "svg": 422,
+        "png": 309
+      }
+    },
+    {
+      "id": "notification-36",
+      "category": "platform",
+      "png": "platform/notification-36.png",
+      "svg": "platform/sources/notification-36.svg",
+      "width": 36,
+      "height": 36,
+      "origin": "native SVG",
+      "files": {
+        "svg": "platform/sources/notification-36.svg",
+        "png": "platform/notification-36.png"
+      },
+      "bytes": {
+        "svg": 406,
+        "png": 425
+      }
+    },
+    {
+      "id": "notification-48",
+      "category": "platform",
+      "png": "platform/notification-48.png",
+      "svg": "platform/sources/notification-48.svg",
+      "width": 48,
+      "height": 48,
+      "origin": "native SVG",
+      "files": {
+        "svg": "platform/sources/notification-48.svg",
+        "png": "platform/notification-48.png"
+      },
+      "bytes": {
+        "svg": 420,
+        "png": 528
+      }
+    },
+    {
+      "id": "notification-72",
+      "category": "platform",
+      "png": "platform/notification-72.png",
+      "svg": "platform/sources/notification-72.svg",
+      "width": 72,
+      "height": 72,
+      "origin": "native SVG",
+      "files": {
+        "svg": "platform/sources/notification-72.svg",
+        "png": "platform/notification-72.png"
+      },
+      "bytes": {
+        "svg": 405,
+        "png": 733
+      }
+    },
+    {
+      "id": "notification-96",
+      "category": "platform",
+      "png": "platform/notification-96.png",
+      "svg": "platform/sources/notification-96.svg",
+      "width": 96,
+      "height": 96,
+      "origin": "native SVG",
+      "files": {
+        "svg": "platform/sources/notification-96.svg",
+        "png": "platform/notification-96.png"
+      },
+      "bytes": {
+        "svg": 420,
+        "png": 1008
+      }
+    },
+    {
+      "id": "avatar-64",
+      "category": "platform",
+      "png": "platform/avatar-64.png",
+      "svg": "platform/sources/avatar-64.svg",
+      "width": 64,
+      "height": 64,
+      "origin": "native SVG",
+      "files": {
+        "svg": "platform/sources/avatar-64.svg",
+        "png": "platform/avatar-64.png"
+      },
+      "bytes": {
+        "svg": 455,
+        "png": 708
+      }
+    },
+    {
+      "id": "avatar-128",
+      "category": "platform",
+      "png": "platform/avatar-128.png",
+      "svg": "platform/sources/avatar-128.svg",
+      "width": 128,
+      "height": 128,
+      "origin": "native SVG",
+      "files": {
+        "svg": "platform/sources/avatar-128.svg",
+        "png": "platform/avatar-128.png"
+      },
+      "bytes": {
+        "svg": 460,
+        "png": 1376
+      }
+    },
+    {
+      "id": "avatar-256",
+      "category": "platform",
+      "png": "platform/avatar-256.png",
+      "svg": "platform/sources/avatar-256.svg",
+      "width": 256,
+      "height": 256,
+      "origin": "native SVG",
+      "files": {
+        "svg": "platform/sources/avatar-256.svg",
+        "png": "platform/avatar-256.png"
+      },
+      "bytes": {
+        "svg": 460,
+        "png": 3317
+      }
+    },
+    {
+      "id": "avatar-512",
+      "category": "platform",
+      "png": "platform/avatar-512.png",
+      "svg": "platform/sources/avatar-512.svg",
+      "width": 512,
+      "height": 512,
+      "origin": "native SVG",
+      "files": {
+        "svg": "platform/sources/avatar-512.svg",
+        "png": "platform/avatar-512.png"
+      },
+      "bytes": {
+        "svg": 462,
+        "png": 7874
+      }
+    },
+    {
+      "id": "favicon-16",
+      "category": "platform",
+      "png": "platform/favicon-16.png",
+      "svg": "platform/sources/favicon-16.svg",
+      "width": 16,
+      "height": 16,
+      "origin": "native SVG",
+      "files": {
+        "svg": "platform/sources/favicon-16.svg",
+        "png": "platform/favicon-16.png"
+      },
+      "bytes": {
+        "svg": 440,
+        "png": 301
+      }
+    },
+    {
+      "id": "favicon-32",
+      "category": "platform",
+      "png": "platform/favicon-32.png",
+      "svg": "platform/sources/favicon-32.svg",
+      "width": 32,
+      "height": 32,
+      "origin": "native SVG",
+      "files": {
+        "svg": "platform/sources/favicon-32.svg",
+        "png": "platform/favicon-32.png"
+      },
+      "bytes": {
+        "svg": 440,
+        "png": 401
+      }
+    },
+    {
+      "id": "favicon-48",
+      "category": "platform",
+      "png": "platform/favicon-48.png",
+      "svg": "platform/sources/favicon-48.svg",
+      "width": 48,
+      "height": 48,
+      "origin": "native SVG",
+      "files": {
+        "svg": "platform/sources/favicon-48.svg",
+        "png": "platform/favicon-48.png"
+      },
+      "bytes": {
+        "svg": 440,
+        "png": 587
+      }
+    },
+    {
+      "id": "kinds/subscription",
+      "category": "icon",
+      "svg": "icons/kinds/subscription.svg",
+      "png": "icons/kinds/subscription.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/kinds/subscription.svg",
+        "png": "icons/kinds/subscription.png"
+      },
+      "bytes": {
+        "svg": 274,
+        "png": 1838
+      }
+    },
+    {
+      "id": "kinds/loan",
+      "category": "icon",
+      "svg": "icons/kinds/loan.svg",
+      "png": "icons/kinds/loan.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/kinds/loan.svg",
+        "png": "icons/kinds/loan.png"
+      },
+      "bytes": {
+        "svg": 301,
+        "png": 1360
+      }
+    },
+    {
+      "id": "kinds/housing",
+      "category": "icon",
+      "svg": "icons/kinds/housing.svg",
+      "png": "icons/kinds/housing.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/kinds/housing.svg",
+        "png": "icons/kinds/housing.png"
+      },
+      "bytes": {
+        "svg": 247,
+        "png": 1040
+      }
+    },
+    {
+      "id": "kinds/utility",
+      "category": "icon",
+      "svg": "icons/kinds/utility.svg",
+      "png": "icons/kinds/utility.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/kinds/utility.svg",
+        "png": "icons/kinds/utility.png"
+      },
+      "bytes": {
+        "svg": 234,
+        "png": 1207
+      }
+    },
+    {
+      "id": "kinds/insurance",
+      "category": "icon",
+      "svg": "icons/kinds/insurance.svg",
+      "png": "icons/kinds/insurance.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/kinds/insurance.svg",
+        "png": "icons/kinds/insurance.png"
+      },
+      "bytes": {
+        "svg": 268,
+        "png": 1883
+      }
+    },
+    {
+      "id": "kinds/savings",
+      "category": "icon",
+      "svg": "icons/kinds/savings.svg",
+      "png": "icons/kinds/savings.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/kinds/savings.svg",
+        "png": "icons/kinds/savings.png"
+      },
+      "bytes": {
+        "svg": 255,
+        "png": 2122
+      }
+    },
+    {
+      "id": "kinds/other",
+      "category": "icon",
+      "svg": "icons/kinds/other.svg",
+      "png": "icons/kinds/other.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/kinds/other.svg",
+        "png": "icons/kinds/other.png"
+      },
+      "bytes": {
+        "svg": 322,
+        "png": 1845
+      }
+    },
+    {
+      "id": "categories/streaming",
+      "category": "icon",
+      "svg": "icons/categories/streaming.svg",
+      "png": "icons/categories/streaming.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/categories/streaming.svg",
+        "png": "icons/categories/streaming.png"
+      },
+      "bytes": {
+        "svg": 285,
+        "png": 1195
+      }
+    },
+    {
+      "id": "categories/software",
+      "category": "icon",
+      "svg": "icons/categories/software.svg",
+      "png": "icons/categories/software.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/categories/software.svg",
+        "png": "icons/categories/software.png"
+      },
+      "bytes": {
+        "svg": 291,
+        "png": 1517
+      }
+    },
+    {
+      "id": "categories/phone-internet",
+      "category": "icon",
+      "svg": "icons/categories/phone-internet.svg",
+      "png": "icons/categories/phone-internet.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/categories/phone-internet.svg",
+        "png": "icons/categories/phone-internet.png"
+      },
+      "bytes": {
+        "svg": 272,
+        "png": 1119
+      }
+    },
+    {
+      "id": "categories/home",
+      "category": "icon",
+      "svg": "icons/categories/home.svg",
+      "png": "icons/categories/home.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/categories/home.svg",
+        "png": "icons/categories/home.png"
+      },
+      "bytes": {
+        "svg": 247,
+        "png": 1040
+      }
+    },
+    {
+      "id": "categories/utilities",
+      "category": "icon",
+      "svg": "icons/categories/utilities.svg",
+      "png": "icons/categories/utilities.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/categories/utilities.svg",
+        "png": "icons/categories/utilities.png"
+      },
+      "bytes": {
+        "svg": 234,
+        "png": 1207
+      }
+    },
+    {
+      "id": "categories/insurance",
+      "category": "icon",
+      "svg": "icons/categories/insurance.svg",
+      "png": "icons/categories/insurance.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/categories/insurance.svg",
+        "png": "icons/categories/insurance.png"
+      },
+      "bytes": {
+        "svg": 268,
+        "png": 1883
+      }
+    },
+    {
+      "id": "categories/transport",
+      "category": "icon",
+      "svg": "icons/categories/transport.svg",
+      "png": "icons/categories/transport.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/categories/transport.svg",
+        "png": "icons/categories/transport.png"
+      },
+      "bytes": {
+        "svg": 319,
+        "png": 1013
+      }
+    },
+    {
+      "id": "categories/health",
+      "category": "icon",
+      "svg": "icons/categories/health.svg",
+      "png": "icons/categories/health.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/categories/health.svg",
+        "png": "icons/categories/health.png"
+      },
+      "bytes": {
+        "svg": 237,
+        "png": 615
+      }
+    },
+    {
+      "id": "categories/loans",
+      "category": "icon",
+      "svg": "icons/categories/loans.svg",
+      "png": "icons/categories/loans.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/categories/loans.svg",
+        "png": "icons/categories/loans.png"
+      },
+      "bytes": {
+        "svg": 301,
+        "png": 1360
+      }
+    },
+    {
+      "id": "categories/savings",
+      "category": "icon",
+      "svg": "icons/categories/savings.svg",
+      "png": "icons/categories/savings.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/categories/savings.svg",
+        "png": "icons/categories/savings.png"
+      },
+      "bytes": {
+        "svg": 255,
+        "png": 2122
+      }
+    },
+    {
+      "id": "categories/other",
+      "category": "icon",
+      "svg": "icons/categories/other.svg",
+      "png": "icons/categories/other.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/categories/other.svg",
+        "png": "icons/categories/other.png"
+      },
+      "bytes": {
+        "svg": 322,
+        "png": 1845
+      }
+    },
+    {
+      "id": "tabs/month",
+      "category": "icon",
+      "svg": "icons/tabs/month.svg",
+      "png": "icons/tabs/month.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/tabs/month.svg",
+        "png": "icons/tabs/month.png"
+      },
+      "bytes": {
+        "svg": 300,
+        "png": 1189
+      }
+    },
+    {
+      "id": "tabs/items",
+      "category": "icon",
+      "svg": "icons/tabs/items.svg",
+      "png": "icons/tabs/items.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/tabs/items.svg",
+        "png": "icons/tabs/items.png"
+      },
+      "bytes": {
+        "svg": 287,
+        "png": 1047
+      }
+    },
+    {
+      "id": "tabs/upcoming",
+      "category": "icon",
+      "svg": "icons/tabs/upcoming.svg",
+      "png": "icons/tabs/upcoming.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/tabs/upcoming.svg",
+        "png": "icons/tabs/upcoming.png"
+      },
+      "bytes": {
+        "svg": 250,
+        "png": 1961
+      }
+    },
+    {
+      "id": "tabs/statistics",
+      "category": "icon",
+      "svg": "icons/tabs/statistics.svg",
+      "png": "icons/tabs/statistics.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/tabs/statistics.svg",
+        "png": "icons/tabs/statistics.png"
+      },
+      "bytes": {
+        "svg": 239,
+        "png": 649
+      }
+    },
+    {
+      "id": "actions/add",
+      "category": "icon",
+      "svg": "icons/actions/add.svg",
+      "png": "icons/actions/add.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/actions/add.svg",
+        "png": "icons/actions/add.png"
+      },
+      "bytes": {
+        "svg": 255,
+        "png": 1914
+      }
+    },
+    {
+      "id": "actions/paid",
+      "category": "icon",
+      "svg": "icons/actions/paid.svg",
+      "png": "icons/actions/paid.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/actions/paid.svg",
+        "png": "icons/actions/paid.png"
+      },
+      "bytes": {
+        "svg": 252,
+        "png": 1956
+      }
+    },
+    {
+      "id": "actions/due",
+      "category": "icon",
+      "svg": "icons/actions/due.svg",
+      "png": "icons/actions/due.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/actions/due.svg",
+        "png": "icons/actions/due.png"
+      },
+      "bytes": {
+        "svg": 253,
+        "png": 1899
+      }
+    },
+    {
+      "id": "actions/overdue",
+      "category": "icon",
+      "svg": "icons/actions/overdue.svg",
+      "png": "icons/actions/overdue.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/actions/overdue.svg",
+        "png": "icons/actions/overdue.png"
+      },
+      "bytes": {
+        "svg": 236,
+        "png": 1115
+      }
+    },
+    {
+      "id": "actions/autopay",
+      "category": "icon",
+      "svg": "icons/actions/autopay.svg",
+      "png": "icons/actions/autopay.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/actions/autopay.svg",
+        "png": "icons/actions/autopay.png"
+      },
+      "bytes": {
+        "svg": 299,
+        "png": 1980
+      }
+    },
+    {
+      "id": "actions/archive",
+      "category": "icon",
+      "svg": "icons/actions/archive.svg",
+      "png": "icons/actions/archive.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/actions/archive.svg",
+        "png": "icons/actions/archive.png"
+      },
+      "bytes": {
+        "svg": 276,
+        "png": 891
+      }
+    },
+    {
+      "id": "actions/backup",
+      "category": "icon",
+      "svg": "icons/actions/backup.svg",
+      "png": "icons/actions/backup.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/actions/backup.svg",
+        "png": "icons/actions/backup.png"
+      },
+      "bytes": {
+        "svg": 242,
+        "png": 781
+      }
+    },
+    {
+      "id": "actions/restore",
+      "category": "icon",
+      "svg": "icons/actions/restore.svg",
+      "png": "icons/actions/restore.png",
+      "origin": "native SVG",
+      "grid": 24,
+      "files": {
+        "svg": "icons/actions/restore.svg",
+        "png": "icons/actions/restore.png"
+      },
+      "bytes": {
+        "svg": 242,
+        "png": 816
+      }
+    },
+    {
+      "id": "welcome-month",
+      "title": "A month, all in order",
+      "alt": "An open paper ledger surrounded by a calm monthly arc and three organised expense tabs.",
+      "scene": "An elegant open ledger constructed from warm paper, three simple ruled rows on one page and three separate small coloured category tabs standing alongside; a loose incomplete arc of twelve small rounded paper tiles behind it suggests a monthly rhythm without any numbers. The hero is the ledger, organised and reassuring. Asymmetric spacious arrangement, no bank or money pile.",
+      "prompt": "Use case: illustration-story. Create a finished ORIGINAL transparent-background illustration for Monthly Ledger, a private offline personal monthly fixed-expense app. Square 1024x1024, subject fits within central 78 percent, genuine alpha transparency outside the artwork, no coloured background panel, no square tile. Art direction: sophisticated tactile miniature sculptures made of folded and layered matte paper, gently rounded edges, subtle realistic paper grain, softly lit three-quarter view, almost no cast shadow outside objects. Palette warm ivory #F6F1E6, forest/emerald #1F8F74 and #3FBF9C, ink/slate #4F5B64, restrained ochre; use intermediate tones and visible pale edges so the object reads on both light cream and deep blue. Crisp simple silhouette, few objects, useful at small mobile UI sizes. No words, letters, digits, currency signs, logos, watermark, gradients filling the canvas, fake UI, financial performance claims, bank connections, cloud, padlocks or sensitive real data. Each scene must have its own distinct arrangement and subject. Scene: An elegant open ledger constructed from warm paper, three simple ruled rows on one page and three separate small coloured category tabs standing alongside; a loose incomplete arc of twelve small rounded paper tiles behind it suggests a monthly rhythm without any numbers. The hero is the ledger, organised and reassuring. Asymmetric spacious arrangement, no bank or money pile.",
+      "source": "~/.codex/generated_images/01a1568a-9bb4-7aa0-a50a-5f00f40d4bc9/exec-aab9833b-0c5f-44f5-b0ab-192c65244fdc.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "category": "illustration",
+      "png": "illustrations/welcome-month.png",
+      "webp": "illustrations/welcome-month.webp",
+      "origin": "built-in image_gen",
+      "files": {
+        "png": "illustrations/welcome-month.png",
+        "webp": "illustrations/welcome-month.webp"
+      },
+      "bytes": {
+        "png": 1485387,
+        "webp": 190470
+      }
+    },
+    {
+      "id": "empty-ledger",
+      "title": "The first item",
+      "alt": "A blank open ledger with a single green bookmark ready for its first entry.",
+      "scene": "A small OPEN BLANK ledger, an inviting mint-green ribbon bookmark making one soft loop above the page, and a single upright paper tab ready to be inserted. No ruled list of fake entries, no checklist checkmarks because nothing has been added. Simple intimate three-object composition, clear silhouette at 200 pixels, warm cream paper edges and forest-green ribbon.",
+      "prompt": "Use case: illustration-story. Create a finished ORIGINAL transparent-background illustration for Monthly Ledger, a private offline personal monthly fixed-expense app. Square 1024x1024, subject fits within central 78 percent, genuine alpha transparency outside the artwork, no coloured background panel, no square tile. Art direction: sophisticated tactile miniature sculptures made of folded and layered matte paper, gently rounded edges, subtle realistic paper grain, softly lit three-quarter view, almost no cast shadow outside objects. Palette warm ivory #F6F1E6, forest/emerald #1F8F74 and #3FBF9C, ink/slate #4F5B64, restrained ochre; use intermediate tones and visible pale edges so the object reads on both light cream and deep blue. Crisp simple silhouette, few objects, useful at small mobile UI sizes. No words, letters, digits, currency signs, logos, watermark, gradients filling the canvas, fake UI, financial performance claims, bank connections, cloud, padlocks or sensitive real data. Each scene must have its own distinct arrangement and subject. Scene: A small OPEN BLANK ledger, an inviting mint-green ribbon bookmark making one soft loop above the page, and a single upright paper tab ready to be inserted. No ruled list of fake entries, no checklist checkmarks because nothing has been added. Simple intimate three-object composition, clear silhouette at 200 pixels, warm cream paper edges and forest-green ribbon.",
+      "source": "~/.codex/generated_images/01a1568a-9bb4-7aa0-a50a-5f00f40d4bc9/exec-6a6ab388-f4e4-4b02-b500-48c42c061f62.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "category": "illustration",
+      "png": "illustrations/empty-ledger.png",
+      "webp": "illustrations/empty-ledger.webp",
+      "origin": "built-in image_gen",
+      "files": {
+        "png": "illustrations/empty-ledger.png",
+        "webp": "illustrations/empty-ledger.webp"
+      },
+      "bytes": {
+        "png": 1429356,
+        "webp": 136022
+      }
+    },
+    {
+      "id": "month-complete",
+      "title": "All paid",
+      "alt": "A neat stack of ledger slips held by a green band with one modest confirmation tick.",
+      "scene": "A satisfyingly neat fan of THREE paper ledger slips, gathered gently by a mint-green band, one small sculptural green tick standing in front and a single golden circular accent. Calm completion and relief, no confetti, fireworks, trophy or financial wealth promise. Compact horizontal arrangement, tactile thick paper and restrained green.",
+      "prompt": "Use case: illustration-story. Create a finished ORIGINAL transparent-background illustration for Monthly Ledger, a private offline personal monthly fixed-expense app. Square 1024x1024, subject fits within central 78 percent, genuine alpha transparency outside the artwork, no coloured background panel, no square tile. Art direction: sophisticated tactile miniature sculptures made of folded and layered matte paper, gently rounded edges, subtle realistic paper grain, softly lit three-quarter view, almost no cast shadow outside objects. Palette warm ivory #F6F1E6, forest/emerald #1F8F74 and #3FBF9C, ink/slate #4F5B64, restrained ochre; use intermediate tones and visible pale edges so the object reads on both light cream and deep blue. Crisp simple silhouette, few objects, useful at small mobile UI sizes. No words, letters, digits, currency signs, logos, watermark, gradients filling the canvas, fake UI, financial performance claims, bank connections, cloud, padlocks or sensitive real data. Each scene must have its own distinct arrangement and subject. Scene: A satisfyingly neat fan of THREE paper ledger slips, gathered gently by a mint-green band, one small sculptural green tick standing in front and a single golden circular accent. Calm completion and relief, no confetti, fireworks, trophy or financial wealth promise. Compact horizontal arrangement, tactile thick paper and restrained green.",
+      "source": "~/.codex/generated_images/01a1568a-9bb4-7aa0-a50a-5f00f40d4bc9/exec-3c179e77-af2c-4392-aea0-6df551f91256.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "category": "illustration",
+      "png": "illustrations/month-complete.png",
+      "webp": "illustrations/month-complete.webp",
+      "origin": "built-in image_gen",
+      "files": {
+        "png": "illustrations/month-complete.png",
+        "webp": "illustrations/month-complete.webp"
+      },
+      "bytes": {
+        "png": 1410321,
+        "webp": 142998
+      }
+    },
+    {
+      "id": "upcoming-clear",
+      "title": "Nothing due soon",
+      "alt": "A clear unnumbered calendar beside a smooth paper path with no obstacles.",
+      "scene": "One small freestanding blank desk-calendar leaf made entirely of folded paper, no digits and no dated squares, with an airy pale-green paper path curving into open space next to it. Two tiny smooth pebble-like paper shapes provide balance. The concept is an empty upcoming window, calm breathing space, not that all payments are paid. Minimal low relief, soft mint and warm grey.",
+      "prompt": "Use case: illustration-story. Create a finished ORIGINAL transparent-background illustration for Monthly Ledger, a private offline personal monthly fixed-expense app. Square 1024x1024, subject fits within central 78 percent, genuine alpha transparency outside the artwork, no coloured background panel, no square tile. Art direction: sophisticated tactile miniature sculptures made of folded and layered matte paper, gently rounded edges, subtle realistic paper grain, softly lit three-quarter view, almost no cast shadow outside objects. Palette warm ivory #F6F1E6, forest/emerald #1F8F74 and #3FBF9C, ink/slate #4F5B64, restrained ochre; use intermediate tones and visible pale edges so the object reads on both light cream and deep blue. Crisp simple silhouette, few objects, useful at small mobile UI sizes. No words, letters, digits, currency signs, logos, watermark, gradients filling the canvas, fake UI, financial performance claims, bank connections, cloud, padlocks or sensitive real data. Each scene must have its own distinct arrangement and subject. Scene: One small freestanding blank desk-calendar leaf made entirely of folded paper, no digits and no dated squares, with an airy pale-green paper path curving into open space next to it. Two tiny smooth pebble-like paper shapes provide balance. The concept is an empty upcoming window, calm breathing space, not that all payments are paid. Minimal low relief, soft mint and warm grey.",
+      "source": "~/.codex/generated_images/01a1568a-9bb4-7aa0-a50a-5f00f40d4bc9/exec-516c797d-72b7-466f-b9fa-a0cce5e7fd76.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "category": "illustration",
+      "png": "illustrations/upcoming-clear.png",
+      "webp": "illustrations/upcoming-clear.webp",
+      "origin": "built-in image_gen",
+      "files": {
+        "png": "illustrations/upcoming-clear.png",
+        "webp": "illustrations/upcoming-clear.webp"
+      },
+      "bytes": {
+        "png": 1203844,
+        "webp": 144556
+      }
+    },
+    {
+      "id": "statistics-start",
+      "title": "The data is starting",
+      "alt": "A few low paper tiles begin an unfinished series, leaving space for more monthly data.",
+      "scene": "Four small sculptural paper tiles arranged like the beginning of a monthly bar series, all LOW and deliberately unfinished, followed by a loose empty outlined paper frame. Slate blue, sage and a small muted violet tile. No upward growth curve or high winning bar; this is insufficient history and data beginning to form. Beautiful quiet miniature architectural composition, no axis, digits or fake values.",
+      "prompt": "Use case: illustration-story. Create a finished ORIGINAL transparent-background illustration for Monthly Ledger, a private offline personal monthly fixed-expense app. Square 1024x1024, subject fits within central 78 percent, genuine alpha transparency outside the artwork, no coloured background panel, no square tile. Art direction: sophisticated tactile miniature sculptures made of folded and layered matte paper, gently rounded edges, subtle realistic paper grain, softly lit three-quarter view, almost no cast shadow outside objects. Palette warm ivory #F6F1E6, forest/emerald #1F8F74 and #3FBF9C, ink/slate #4F5B64, restrained ochre; use intermediate tones and visible pale edges so the object reads on both light cream and deep blue. Crisp simple silhouette, few objects, useful at small mobile UI sizes. No words, letters, digits, currency signs, logos, watermark, gradients filling the canvas, fake UI, financial performance claims, bank connections, cloud, padlocks or sensitive real data. Each scene must have its own distinct arrangement and subject. Scene: Four small sculptural paper tiles arranged like the beginning of a monthly bar series, all LOW and deliberately unfinished, followed by a loose empty outlined paper frame. Slate blue, sage and a small muted violet tile. No upward growth curve or high winning bar; this is insufficient history and data beginning to form. Beautiful quiet miniature architectural composition, no axis, digits or fake values.",
+      "source": "~/.codex/generated_images/01a1568a-9bb4-7aa0-a50a-5f00f40d4bc9/exec-a768fead-b6b0-4d82-829e-4bffcd5c3ca9.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "category": "illustration",
+      "png": "illustrations/statistics-start.png",
+      "webp": "illustrations/statistics-start.webp",
+      "origin": "built-in image_gen",
+      "files": {
+        "png": "illustrations/statistics-start.png",
+        "webp": "illustrations/statistics-start.webp"
+      },
+      "bytes": {
+        "png": 678588,
+        "webp": 122894
+      }
+    },
+    {
+      "id": "savings-goal",
+      "title": "A step towards the goal",
+      "alt": "Small folded green steps lead towards an open paper arch and one gold disc.",
+      "scene": "A short stairway of thick folded sage-green paper with three modest steps rising towards a small open cream paper arch, a single warm ochre disc resting just inside the arch. A few tiny paper folds at the base imply gradual contributions. Aspirational but modest savings goal, not an investment or guaranteed return. Side three-quarter view with a clear walkable visual path.",
+      "prompt": "Use case: illustration-story. Create a finished ORIGINAL transparent-background illustration for Monthly Ledger, a private offline personal monthly fixed-expense app. Square 1024x1024, subject fits within central 78 percent, genuine alpha transparency outside the artwork, no coloured background panel, no square tile. Art direction: sophisticated tactile miniature sculptures made of folded and layered matte paper, gently rounded edges, subtle realistic paper grain, softly lit three-quarter view, almost no cast shadow outside objects. Palette warm ivory #F6F1E6, forest/emerald #1F8F74 and #3FBF9C, ink/slate #4F5B64, restrained ochre; use intermediate tones and visible pale edges so the object reads on both light cream and deep blue. Crisp simple silhouette, few objects, useful at small mobile UI sizes. No words, letters, digits, currency signs, logos, watermark, gradients filling the canvas, fake UI, financial performance claims, bank connections, cloud, padlocks or sensitive real data. Each scene must have its own distinct arrangement and subject. Scene: A short stairway of thick folded sage-green paper with three modest steps rising towards a small open cream paper arch, a single warm ochre disc resting just inside the arch. A few tiny paper folds at the base imply gradual contributions. Aspirational but modest savings goal, not an investment or guaranteed return. Side three-quarter view with a clear walkable visual path.",
+      "source": "~/.codex/generated_images/01a1568a-9bb4-7aa0-a50a-5f00f40d4bc9/exec-e1ab8726-a110-4929-a461-e27385412746.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "category": "illustration",
+      "png": "illustrations/savings-goal.png",
+      "webp": "illustrations/savings-goal.webp",
+      "origin": "built-in image_gen",
+      "files": {
+        "png": "illustrations/savings-goal.png",
+        "webp": "illustrations/savings-goal.webp"
+      },
+      "bytes": {
+        "png": 1159925,
+        "webp": 134710
+      }
+    },
+    {
+      "id": "loan-progress",
+      "title": "One instalment at a time",
+      "alt": "A short chain of folded paper loops becomes a neatly arranged set of separate rings.",
+      "scene": "A short chain of five soft rounded paper loops lying horizontally; at one end two loops are gently opened and laid neatly apart, not broken violently. Warm muted terracotta loops transition to a green end loop, subtle progress through instalments. No handcuffs, chains of metal, scissors, money, percentages or promise of automatic debt cancellation. Calm craft sculpture, recognisable simple shapes.",
+      "prompt": "Use case: illustration-story. Create a finished ORIGINAL transparent-background illustration for Monthly Ledger, a private offline personal monthly fixed-expense app. Square 1024x1024, subject fits within central 78 percent, genuine alpha transparency outside the artwork, no coloured background panel, no square tile. Art direction: sophisticated tactile miniature sculptures made of folded and layered matte paper, gently rounded edges, subtle realistic paper grain, softly lit three-quarter view, almost no cast shadow outside objects. Palette warm ivory #F6F1E6, forest/emerald #1F8F74 and #3FBF9C, ink/slate #4F5B64, restrained ochre; use intermediate tones and visible pale edges so the object reads on both light cream and deep blue. Crisp simple silhouette, few objects, useful at small mobile UI sizes. No words, letters, digits, currency signs, logos, watermark, gradients filling the canvas, fake UI, financial performance claims, bank connections, cloud, padlocks or sensitive real data. Each scene must have its own distinct arrangement and subject. Scene: A short chain of five soft rounded paper loops lying horizontally; at one end two loops are gently opened and laid neatly apart, not broken violently. Warm muted terracotta loops transition to a green end loop, subtle progress through instalments. No handcuffs, chains of metal, scissors, money, percentages or promise of automatic debt cancellation. Calm craft sculpture, recognisable simple shapes.",
+      "source": "~/.codex/generated_images/01a1568a-9bb4-7aa0-a50a-5f00f40d4bc9/exec-41ca44a2-244c-448c-b241-cdf1fec22654.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "category": "illustration",
+      "png": "illustrations/loan-progress.png",
+      "webp": "illustrations/loan-progress.webp",
+      "origin": "built-in image_gen",
+      "files": {
+        "png": "illustrations/loan-progress.png",
+        "webp": "illustrations/loan-progress.webp"
+      },
+      "bytes": {
+        "png": 631564,
+        "webp": 106808
+      }
+    },
+    {
+      "id": "backup-export",
+      "title": "A copy to keep",
+      "alt": "A small ledger is placed inside an open portable archive case with a folded corner tab.",
+      "scene": "A miniature open cream archival CASE, shaped like a portable file wallet rather than a cloud, receives a small green-bound paper ledger that is halfway tucked inside. An extra folded slip remains beside the original ledger footprint, suggesting a copy to keep. Clear outgoing movement using one curved paper ribbon, not a UI arrow or sync icon. Tactile paper, forest-green closure, discreet ochre tab, local personal storage.",
+      "prompt": "Use case: illustration-story. Create a finished ORIGINAL transparent-background illustration for Monthly Ledger, a private offline personal monthly fixed-expense app. Square 1024x1024, subject fits within central 78 percent, genuine alpha transparency outside the artwork, no coloured background panel, no square tile. Art direction: sophisticated tactile miniature sculptures made of folded and layered matte paper, gently rounded edges, subtle realistic paper grain, softly lit three-quarter view, almost no cast shadow outside objects. Palette warm ivory #F6F1E6, forest/emerald #1F8F74 and #3FBF9C, ink/slate #4F5B64, restrained ochre; use intermediate tones and visible pale edges so the object reads on both light cream and deep blue. Crisp simple silhouette, few objects, useful at small mobile UI sizes. No words, letters, digits, currency signs, logos, watermark, gradients filling the canvas, fake UI, financial performance claims, bank connections, cloud, padlocks or sensitive real data. Each scene must have its own distinct arrangement and subject. Scene: A miniature open cream archival CASE, shaped like a portable file wallet rather than a cloud, receives a small green-bound paper ledger that is halfway tucked inside. An extra folded slip remains beside the original ledger footprint, suggesting a copy to keep. Clear outgoing movement using one curved paper ribbon, not a UI arrow or sync icon. Tactile paper, forest-green closure, discreet ochre tab, local personal storage.",
+      "source": "~/.codex/generated_images/01a1568a-9bb4-7aa0-a50a-5f00f40d4bc9/exec-dec12620-3d05-4100-bf0d-6e227b45c1b3.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "category": "illustration",
+      "png": "illustrations/backup-export.png",
+      "webp": "illustrations/backup-export.webp",
+      "origin": "built-in image_gen",
+      "files": {
+        "png": "illustrations/backup-export.png",
+        "webp": "illustrations/backup-export.webp"
+      },
+      "bytes": {
+        "png": 1408694,
+        "webp": 170200
+      }
+    },
+    {
+      "id": "backup-restore",
+      "title": "Getting the ledger back",
+      "alt": "Ledger pages unfold from an archive case and settle into an open book.",
+      "scene": "A small closed archive wallet at left, its green tab open, releases three cream paper leaves through an airy curved fan into an open ledger at right. The story reads LEFT TO RIGHT as restoring saved pages into a usable book. Distinct composition from export, no cloud, wireless links, security shield, arrows, device, claims of guaranteed recovery. Pale teal and cream, one understated blue-grey edge.",
+      "prompt": "Use case: illustration-story. Create a finished ORIGINAL transparent-background illustration for Monthly Ledger, a private offline personal monthly fixed-expense app. Square 1024x1024, subject fits within central 78 percent, genuine alpha transparency outside the artwork, no coloured background panel, no square tile. Art direction: sophisticated tactile miniature sculptures made of folded and layered matte paper, gently rounded edges, subtle realistic paper grain, softly lit three-quarter view, almost no cast shadow outside objects. Palette warm ivory #F6F1E6, forest/emerald #1F8F74 and #3FBF9C, ink/slate #4F5B64, restrained ochre; use intermediate tones and visible pale edges so the object reads on both light cream and deep blue. Crisp simple silhouette, few objects, useful at small mobile UI sizes. No words, letters, digits, currency signs, logos, watermark, gradients filling the canvas, fake UI, financial performance claims, bank connections, cloud, padlocks or sensitive real data. Each scene must have its own distinct arrangement and subject. Scene: A small closed archive wallet at left, its green tab open, releases three cream paper leaves through an airy curved fan into an open ledger at right. The story reads LEFT TO RIGHT as restoring saved pages into a usable book. Distinct composition from export, no cloud, wireless links, security shield, arrows, device, claims of guaranteed recovery. Pale teal and cream, one understated blue-grey edge.",
+      "source": "~/.codex/generated_images/01a1568a-9bb4-7aa0-a50a-5f00f40d4bc9/exec-f773f2f4-7561-487c-b9bd-87902af2b1b6.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "category": "illustration",
+      "png": "illustrations/backup-restore.png",
+      "webp": "illustrations/backup-restore.webp",
+      "origin": "built-in image_gen",
+      "files": {
+        "png": "illustrations/backup-restore.png",
+        "webp": "illustrations/backup-restore.webp"
+      },
+      "bytes": {
+        "png": 1129200,
+        "webp": 143746
+      }
+    },
+    {
+      "id": "reminders",
+      "title": "A gentle reminder",
+      "alt": "A folded paper bell leans gently towards a single due-date card.",
+      "scene": "A sculptural folded-paper BELL in muted ochre, beside one cream ledger slip with a small green folded corner, with two short curved paper strips suggesting a gentle chime. No alarm clock, no red danger badge, no numbered calendar, no text or phone mockup. A friendly discreet local reminder, compact asymmetrical arrangement and beautiful recognisable silhouette.",
+      "prompt": "Use case: illustration-story. Create a finished ORIGINAL transparent-background illustration for Monthly Ledger, a private offline personal monthly fixed-expense app. Square 1024x1024, subject fits within central 78 percent, genuine alpha transparency outside the artwork, no coloured background panel, no square tile. Art direction: sophisticated tactile miniature sculptures made of folded and layered matte paper, gently rounded edges, subtle realistic paper grain, softly lit three-quarter view, almost no cast shadow outside objects. Palette warm ivory #F6F1E6, forest/emerald #1F8F74 and #3FBF9C, ink/slate #4F5B64, restrained ochre; use intermediate tones and visible pale edges so the object reads on both light cream and deep blue. Crisp simple silhouette, few objects, useful at small mobile UI sizes. No words, letters, digits, currency signs, logos, watermark, gradients filling the canvas, fake UI, financial performance claims, bank connections, cloud, padlocks or sensitive real data. Each scene must have its own distinct arrangement and subject. Scene: A sculptural folded-paper BELL in muted ochre, beside one cream ledger slip with a small green folded corner, with two short curved paper strips suggesting a gentle chime. No alarm clock, no red danger badge, no numbered calendar, no text or phone mockup. A friendly discreet local reminder, compact asymmetrical arrangement and beautiful recognisable silhouette.",
+      "source": "~/.codex/generated_images/01a1568a-9bb4-7aa0-a50a-5f00f40d4bc9/exec-6c0a6a24-bc67-4c44-8288-d699eeeff3ab.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "category": "illustration",
+      "png": "illustrations/reminders.png",
+      "webp": "illustrations/reminders.webp",
+      "origin": "built-in image_gen",
+      "files": {
+        "png": "illustrations/reminders.png",
+        "webp": "illustrations/reminders.webp"
+      },
+      "bytes": {
+        "png": 1157682,
+        "webp": 138202
+      }
+    },
+    {
+      "id": "project-cover",
+      "category": "preview",
+      "svg": "previews/project-cover.svg",
+      "png": "previews/project-cover.png",
+      "origin": "native SVG geometry / outlined Manrope",
+      "files": {
+        "svg": "previews/project-cover.svg",
+        "png": "previews/project-cover.png"
+      },
+      "bytes": {
+        "svg": 5462,
+        "png": 37324
+      }
+    }
+  ]
+}
